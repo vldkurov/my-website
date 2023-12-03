@@ -1,26 +1,38 @@
-#navbarNav{
-    /*border: 1px solid red;*/
-}
-
-.navbar-nav{
-    /*border: 1px solid green;*/
-}
-
-#about-me{
-    border: 1px solid red;
+body{
+    margin: 0 7%;
 }
 
 .portrait {
-    /*width: 300px;*/
     width: 100%;
     border-radius: 4%;
     flex-shrink: 0;
 }
 
-.text{
-    border: 1px solid blue;
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
-.img{
-    border: 1px solid green;
+details {
+    cursor: pointer;
+}
+
+.project-title h3 {
+    display: inline;
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#skills-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 0.5rem;
+}
+
+.heart {
+    color: red;
 }
