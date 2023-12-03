@@ -33,6 +33,14 @@ details {
     margin-top: 0.5rem;
 }
 
+.contact-icon > *{
+    font-size: 2em;
+    width: 2em;
+    margin-right: 0.5em;
+}
+
 .heart {
     color: red;
 }
+
+
