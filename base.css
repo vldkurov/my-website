@@ -1,10 +1,9 @@
-body{
+body {
     margin: 0 7%;
 }
 
 .portrait {
     width: 100%;
-    border-radius: 4%;
     flex-shrink: 0;
 }
 
@@ -33,7 +32,7 @@ details {
     margin-top: 0.5rem;
 }
 
-.contact-icon > *{
+.contact-icon > * {
     font-size: 2em;
     width: 2em;
     margin-right: 0.5em;
